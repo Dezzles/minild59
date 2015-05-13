@@ -1,0 +1,84 @@
+{
+	"name" : "textures",
+	"resources" : [
+		{
+			"name" : "MapTexture",
+			"texture" : "island.png",
+			"type" : "Texture"
+		},
+		{
+			"name" : "TilesTexture",
+			"texture" : "tiles.png",
+			"type" : "Texture"
+		},
+		{
+			"name" : "PlayerTexture",
+			"texture" : "player.png",
+			"type" : "Texture"
+		},
+		{
+			"name" : "DeadlySound",
+			"type" : "SoundBuffer",
+			"filename" : "sound/Deadly.ogg"
+		},
+		{
+			"name" : "ExplosionSound",
+			"type" : "SoundBuffer",
+			"filename" : "sound/Explosion3.ogg"
+		},
+		{
+			"name" : "GameOverSound",
+			"type" : "SoundBuffer",
+			"filename" : "sound/GameOver.ogg"
+		},
+		{
+			"name" : "Icons",
+			"type" : "ResourceList",
+			"items" : [ 
+				{
+					"type" : "Texture",
+					"name" : "Safety",
+					"texture" : "safety.png"
+				},
+				{
+					"type" : "Texture",
+					"name" : "Smily",
+					"texture" : "smily.png"
+				},
+				{
+					"type" : "Texture",
+					"name" : "Danger",
+					"texture" : "danger.png"
+				}
+			]
+		},
+		{
+			"name" : "EnemyTextures",
+			"type" : "ResourceList",
+			"items" : [
+					{
+						"type" : "Texture",
+						"texture" : "enemies/enemy 1.png",
+						"name" : "Enemy1"
+					},
+					{
+						"type" : "Texture",
+						"texture" : "enemies/enemy 2.png",
+						"name" : "Enemy2"
+					}
+			]
+		},
+		{
+			"name" : "ArialFont",
+			"type" : "Font",
+			"fontFile" : "arial.ttf"
+		},
+		{
+			"name" : "Explosion",
+			"texture" : "explosion.png",
+			"type" : "Texture"
+		}
+	]
+
+
+}
