@@ -2,7 +2,7 @@ dofile( "bubblewrap/Scripts/Bubblewrap.lua" )
 dofile ( "bubblewrap/Scripts/Bubblewrap_Scripts.lua" )
 
 -- Solution.
-PsySolutionGame( "LudumDare32" )
+PsySolutionGame( "MiniLD59" )
 
 
 -- Build externals.
